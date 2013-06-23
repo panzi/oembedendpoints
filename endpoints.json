@@ -1,0 +1,32 @@
+{
+	"https://speakerdeck.com/oembed.{format}": [
+		"https://speakerdeck.com/*",
+		"http://speakerdeck.com/*"
+	],
+	"https://alpha-api.app.net/oembed": [
+		"https://alpha.app.net/*/post/*",
+		"http://alpha.app.net/*/post/*",
+		"https://photos.app.net/*/*",
+		"http://photos.app.net/*/*"
+	],
+	"http://www.youtube.com/oembed": [
+		"http://*youtube.com/watch*",
+		"http://*.youtube.com/v/*",
+		"https://*youtube.com/watch*",
+		"https://*.youtube.com/v/*",
+		"http://youtu.be/*",
+		"http://*.youtube.com/user/*",
+		"http://*.youtube.com/*#*/*",
+		"http://m.youtube.com/watch*",
+		"http://m.youtube.com/index*",
+		"http://*.youtube.com/profile*",
+		"http://*.youtube.com/view_play_list*",
+		"http://*.youtube.com/playlist*"
+	],
+	"http://backend.deviantart.com/oembed": [
+		"http://*.deviantart.com/art/*",
+		"http://fav.me/*",
+		"http://sta.sh/*",
+		"http://*.deviantart.com/*#/d*"
+	]
+}
