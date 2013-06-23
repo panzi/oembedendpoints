@@ -28,5 +28,52 @@
 		"http://fav.me/*",
 		"http://sta.sh/*",
 		"http://*.deviantart.com/*#/d*"
+	],
+	"http://blip.tv/oembed/": [
+		"http://*.blip.tv/*"
+	],
+	"http://www.dailymotion.com/api/oembed/": [
+		"http://*.dailymotion.com/*"
+	],
+	"http://www.flickr.com/services/oembed/": [
+		"http://*.flickr.com/photos/*"
+	],
+	"http://www.hulu.com/api/oembed.{format}": [
+		"http://www.hulu.com/watch/*"
+	],
+	"http://www.nfb.ca/remote/services/oembed/": [
+		"http://*.nfb.ca/film/*"
+	],
+	"http://qik.com/api/oembed.{format}": [
+		"http://qik.com/*"
+	],
+	"http://revision3.com/api/oembed/": [
+		"http://*.revision3.com/*"
+	],
+	"http://www.scribd.com/services/oembed": [
+		"http://*.scribd.com/*"
+	],
+	"http://lab.viddler.com/services/oembed/": [
+		"http://*.viddler.com/explore/*"
+	],
+	"http://www.vimeo.com/api/oembed.{format}": [
+		"http://www.vimeo.com/*",
+		"http://www.vimeo.com/groups/*/videos/*"
+	],
+	"http://dotsub.com/services/oembed": [
+		"http://dotsub.com/view/*"
+	],
+	"http://www.yfrog.com/api/oembed": [
+		"http://yfrog.*/*"
+	],
+	"http://clikthrough.com/services/oembed": [
+		"http://*.clikthrough.com/theater/video/*"
+	],
+	"http://www.kinomap.com/oembed": [
+		"http://*.kinomap.com/*"
+	],
+	"http://photobucket.com/oembed": [
+		"http://*.photobucket.com/albums/*",
+		"http://*.photobucket.com/groups/*"
 	]
 }
