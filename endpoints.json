@@ -146,7 +146,8 @@
 		"http://www.5min.com/video/*"
 	],
 	"http://500px.com/photo/{1}/oembed.{format}": [
-		"http://500px.com/photo/(*)*"
+		"http://500px.com/photo/({path-component})",
+		"http://500px.com/photo/({path-component})*"
 	],
 	"http://api.dipdive.com/oembed.{format}": [
 		"http://*.dipdive.com/media/*"

@@ -19,7 +19,7 @@ var OEmbedRegistry = (function (undefined) {
 			var patterns = endpoints[endpoint];
 			var regexps = [];
 			for (var i = 0; i < patterns.length; ++ i) {
-				var regexp = patterns[i].replace(/^([^:]*:(?:\/\/)?)([^\/]*)(\/.*?)(\*)?$/, function (all, protocol, domain, path, starAtEnd) {
+				var regexp = patterns[i].replace(/^([^:]*:(?:\/\/)?)([^\/]*)(\/.*?)(\*)?(\)*)$/, function (all, protocol, domain, path, starAtEnd, tail) {
 					var compiled = [
 						convert(protocol, NamedPatterns.protocol),
 						convert(domain, NamedPatterns.domain),
@@ -29,6 +29,8 @@ var OEmbedRegistry = (function (undefined) {
 					if (starAtEnd) {
 						compiled.push(NamedPatterns.any);
 					}
+
+					compiled.push(tail);
 
 					return compiled.join("");
 				});
