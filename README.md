@@ -47,6 +47,8 @@ There are several named patterns:
 `{anchor}` is any anchor, starting with `#` 
 `{any}` any non-zero length string 
 
+The only named pattern currently used in `endpoints.json` is `{path-component}`.
+
 The meaning of the `*` placeholder depends on where it occurs. In the protocol part
 of an URL it expands to `{protocol}`, in the hsotname part it expands to `{domain}`
 in the rest it expands to `{path-component}` unless if it is at the very end. Then
