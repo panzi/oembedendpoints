@@ -1,0 +1,154 @@
+{
+    "https://speakerdeck.com/oembed.{format}": [
+        "^http(?:s)?:\\/\\/speakerdeck\\.com\\/.+$"
+    ],
+    "https://alpha-api.app.net/oembed": [
+        "^http(?:s)?:\\/\\/alpha\\.app\\.net\\/[^#?/]+\\/post\\/.+$",
+        "^http(?:s)?:\\/\\/photos\\.app\\.net\\/[^#?/]+\\/.+$"
+    ],
+    "http://www.youtube.com/oembed": [
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/watch.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/v\\/.+$",
+        "^http(?:s)?:\\/\\/youtu\\.be\\/.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/user\\/.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/[^#?/]+#[^#?/]+\\/.+$",
+        "^http(?:s)?:\\/\\/m\\.youtube\\.com\\/index.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/profile.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/view_play_list.+$",
+        "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?youtube\\.com\\/playlist.+$"
+    ],
+    "http://backend.deviantart.com/oembed": [
+        "^http:\\/\\/(?:[-\\w]+\\.)?deviantart\\.com\\/art\\/.+$",
+        "^http:\\/\\/fav\\.me\\/.+$",
+        "^http:\\/\\/sta\\.sh\\/.+$",
+        "^http:\\/\\/(?:[-\\w]+\\.)?deviantart\\.com\\/[^#?/]+#\\/d.+$"
+    ],
+    "http://blip.tv/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.blip\\.tv\\/.+$"
+    ],
+    "http://www.dailymotion.com/api/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.dailymotion\\.com\\/.+$"
+    ],
+    "http://www.flickr.com/services/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.flickr\\.com\\/photos\\/.+$",
+        "^http:\\/\\/flic\\.kr\\.com\\/.+$"
+    ],
+    "http://www.hulu.com/api/oembed.{format}": [
+        "^http:\\/\\/www\\.hulu\\.com\\/watch\\/.+$"
+    ],
+    "http://www.nfb.ca/remote/services/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.nfb\\.ca\\/film\\/.+$"
+    ],
+    "http://qik.com/api/oembed.{format}": [
+        "^http:\\/\\/qik\\.com\\/.+$"
+    ],
+    "http://revision3.com/api/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.revision3\\.com\\/.+$"
+    ],
+    "http://www.scribd.com/services/oembed": [
+        "^http:\\/\\/[-\\w]+\\.scribd\\.com\\/.+$"
+    ],
+    "http://lab.viddler.com/services/oembed/": [
+        "^http:\\/\\/[-\\w]+\\.viddler\\.com\\/explore\\/.+$"
+    ],
+    "http://www.vimeo.com/api/oembed.{format}": [
+        "^http:\\/\\/www\\.vimeo\\.com\\/.+$",
+        "^http:\\/\\/www\\.vimeo\\.com\\/groups\\/[^#?/]+\\/videos\\/.+$"
+    ],
+    "http://dotsub.com/services/oembed": [
+        "^http:\\/\\/dotsub\\.com\\/view\\/.+$"
+    ],
+    "http://www.yfrog.com/api/oembed": [
+        "^http:\\/\\/(?:www\\.)?yfrog\\.[-\\w]+\\/.+$",
+        "^http:\\/\\/(?:www\\.)?yfrog\\.co\\.[-\\w]+\\/.+$",
+        "^http:\\/\\/(?:www\\.)?yfrog\\.com\\.[-\\w]+\\/.+$"
+    ],
+    "http://clikthrough.com/services/oembed": [
+        "^http(?:s)?:\\/\\/(?:www\\.)?clikthrough\\.com\\/$"
+    ],
+    "http://www.kinomap.com/oembed": [
+        "^http:\\/\\/[-\\w]+\\.kinomap\\.com\\/.+$"
+    ],
+    "http://photobucket.com/oembed": [
+        "^http:\\/\\/(?:[-\\w]+\\.)?photobucket\\.com\\/albums\\/.+$",
+        "^http:\\/\\/(?:[-\\w]+\\.)?photobucket\\.com\\/groups\\/.+$"
+    ],
+    "http://api.instagram.com/oembed": [
+        "^http:\\/\\/instagr\\.am\\/p\\/.+$",
+        "^http:\\/\\/instagram\\.com\\/p\\/.+$"
+    ],
+    "http://www.slideshare.net/api/oembed/2": [
+        "^http:\\/\\/www\\.slideshare\\.net\\/.+$"
+    ],
+    "http://tv.majorleaguegaming.com/oembed": [
+        "^http:\\/\\/mlg\\.tv\\/.+$",
+        "^http:\\/\\/tv\\.majorleaguegaming\\.com\\/.+$"
+    ],
+    "http://my.opera.com/service/oembed": [
+        "^http:\\/\\/my\\.opera\\.com\\/.+$"
+    ],
+    "http://skitch.com/oembed": [
+        "^http(?:s)?:\\/\\/(?:www\\.)?skitch\\.com\\/.+$",
+        "^http:\\/\\/skit\\.ch\\/.+$"
+    ],
+    "https://api.twitter.com/1/statuses/oembed.{format}": [
+        "^http(?:s)?:\\/\\/twitter\\.com\\/(?:#!)?[^#?/]+\\/status\\/.+$"
+    ],
+    "http://soundcloud.com/oembed": [
+        "^https:\\/\\/soundcloud\\.com\\/[^#?/]+\\/.+$"
+    ],
+    "http://www.collegehumor.com/oembed.{format}": [
+        "^http:\\/\\/www\\.collegehumor\\.com\\/video\\/.+$"
+    ],
+    "http://www.polleverywhere.com/services/oembed/": [
+        "^http:\\/\\/www\\.polleverywhere\\.com\\/polls\\/.+$",
+        "^http:\\/\\/www\\.polleverywhere\\.com\\/multiple_choice_polls\\/.+$",
+        "^http:\\/\\/www\\.polleverywhere\\.com\\/free_text_polls\\/.+$"
+    ],
+    "http://www.ifixit.com/Embed": [
+        "^http:\\/\\/www\\.ifixit\\.com\\/[^#?/]+\\/[^#?/]+\\/.+$"
+    ],
+    "http://api.smugmug.com/services/oembed/": [
+        "^http(?:s)?:\\/\\/www\\.smugmug\\.com\\/.+$"
+    ],
+    "https://github.com/api/oembed": [
+        "^http(?:s)?:\\/\\/gist\\.github\\.com\\/.+$"
+    ],
+    "http://animoto.com/services/oembed": [
+        "^http:\\/\\/animoto\\.com\\/play\\/.+$"
+    ],
+    "http://www.rdio.com/api/oembed": [
+        "^http:\\/\\/rdio\\.com\\/people\\/[^#?/]+\\/playlists\\/.+$",
+        "^http:\\/\\/rdio\\.com\\/artist\\/[^#?/]+\\/album\\/.+$"
+    ],
+    "http://api.5min.com/oembed.{format}": [
+        "^http:\\/\\/www\\.5min\\.com\\/video\\/.+$"
+    ],
+    "http://500px.com/photo/{1}/oembed.{format}": [
+        "^http:\\/\\/500px\\.com\\/photo\\/([^#?/]+)(?:.+)?$"
+    ],
+    "http://api.dipdive.com/oembed.{format}": [
+        "^http:\\/\\/[-\\w]+\\.dipdive\\.com\\/media\\/.+$"
+    ],
+    "http://video.yandex.ru/oembed.{format}": [
+        "^http:\\/\\/video\\.yandex\\.ru\\/users\\/[^#?/]+\\/view\\/.+$"
+    ],
+    "http://www.mixcloud.com/oembed/": [
+        "^http:\\/\\/www\\.mixcloud\\.com\\/oembed\\/[^#?/]+\\/.+$"
+    ],
+    "http://www.kickstarter.com/services/oembed": [
+        "^http:\\/\\/[-\\w]+\\.kickstarter\\.com\\/projects\\/.+$"
+    ],
+    "http://coub.com/api/oembed.{format}": [
+        "^http(?:s)?:\\/\\/coub\\.com\\/view\\/.+$"
+    ],
+    "http://www.screenr.com/api/oembed.{format}": [
+        "^http:\\/\\/www\\.screenr\\.com\\/.+$"
+    ],
+    "http://www.funnyordie.com/oembed.{format}": [
+        "^http:\\/\\/www\\.funnyordie\\.com\\/videos\\/.+$"
+    ],
+    "http://fast.wistia.com/oembed.{format}": [
+        "^http:\\/\\/[-\\w]+\\.wista\\.com\\/medias\\/.+$"
+    ]
+}

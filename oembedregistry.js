@@ -147,3 +147,7 @@ var OEmbedRegistry = (function (undefined) {
 
 	return OEmbedRegistry;
 })();
+
+if (typeof exports === "object") {
+	exports.OEmbedRegistry = OEmbedRegistry;
+}
