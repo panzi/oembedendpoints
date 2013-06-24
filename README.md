@@ -40,14 +40,12 @@ for the first matched group, `{2}` for the second etc.
 There are several named patterns:
 
 `{protocol}` is any valid protocol, without `:` 
-`{domain}` is any valid domain name 
+`{domain}` is any valid domain name, without `.` 
 `{path}` is any URI path string (no query string or anchor) 
 `{path-component}` is any URI path string that does not contain `/` 
 `{query}` is any query string, starting with `?` 
 `{anchor}` is any anchor, starting with `#` 
 `{any}` any non-zero length string 
-
-The only named pattern currently used in `endpoints.json` is `{path-component}`.
 
 The meaning of the `*` placeholder depends on where it occurs. In the protocol part
 of an URL it expands to `{protocol}`, in the hsotname part it expands to `{domain}`
@@ -57,7 +55,9 @@ it expands to `{any}`.
 You can define a match group by enclosing a part of the URL pattern by parenthesis `(...)`.
 This can be used to reference the matched string in the endpoint URL.
 
-If you wonder why I didn't just use regular expressions is because the regular expression
+You can define an optional part by enclosing it with square brackets `[...]`.
+
+If you wonder why I didn't just use regular expressions: It's because the regular expression
 syntax is different in every programming language. However, this pattern language should
 be easy to convert to regular expressions. See an example of how this can be done in
 `oembedregistry.js`.

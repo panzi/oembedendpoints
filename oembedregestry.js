@@ -2,11 +2,11 @@ var OEmbedRegistry = (function (undefined) {
 	"use strict";
 
 	var NamedPatterns = {
-		protocol: "[-+_a-zA-Z0-9]*",
-		domain:   "(?:[-_a-zA-Z0-9]+(?:\.[-_a-zA-Z0-9]+)*)",
+		protocol: "[-+\\w]*",
+		domain:   "[-\\w]+",
 		any:      ".+",
-		path:     "[^#?=&]+",
-		path_component: "[^#?=&/]+",
+		path:     "[^#?]+",
+		path_component: "[^#?/]+",
 		query:    "\\?[^#]+",
 		anchor:   "#.+"
 	};
@@ -19,50 +19,79 @@ var OEmbedRegistry = (function (undefined) {
 			var patterns = endpoints[endpoint];
 			var regexps = [];
 			for (var i = 0; i < patterns.length; ++ i) {
-				var regexp = patterns[i].replace(/^([^:]*:(?:\/\/)?)([^\/]*)(\/.*?)(\*)?(\)*)$/, function (all, protocol, domain, path, starAtEnd, tail) {
-					var compiled = [
-						convert(protocol, NamedPatterns.protocol),
-						convert(domain, NamedPatterns.domain),
-						convert(path, NamedPatterns.path_component)
-					];
+				var match = /^([^:]*:(?:\/\/)?)([^\/]*)(\/.*?)(\*[\(\)\[\]]*)?$/.exec(patterns[i]);
 
-					if (starAtEnd) {
-						compiled.push(NamedPatterns.any);
-					}
+				if (!match) {
+					throw new SyntaxError("illegal pattern: "+JSON.stringify(patterns[i]));
+				}
 
-					compiled.push(tail);
+				var stack = [];
+				var compiled = [
+					"^",
+					convert(match[1], NamedPatterns.protocol),
+					convert(match[2], NamedPatterns.domain),
+					convert(match[3], NamedPatterns.path_component)
+				];
 
-					return compiled.join("");
-				});
-				regexps.push(new RegExp("^"+regexp+"$"));
+				if (match[4]) {
+					compiled.push(convert(match[4], NamedPatterns.any));
+				}
+
+				if (stack.length > 0) {
+					throw new StyntaxError("unexpected end of pattern, expected: '"+(stack[stack.length-1])+"' at the end of "+JSON.stringify(patterns[i]));
+				}
+				
+				compiled.push("$");
+
+				regexps.push(new RegExp(compiled.join("")));
 			}
 			this.endpoints[endpoint] = regexps;
 		}
-	}
-
-	// convert URL pattern to regular expression
-	function convert (pattern,defaultRegExp) {
-		return pattern.replace(/(\*)|(?:{([^{}]*)})|([\-\[\]\/\{\}\*\+\?\.\\\^\$\|])/g, function (all, star, name, esc) {
-			if (star) {
-				return defaultRegExp;
-			}
-			else if (name) {
-				var key = name.toLowerCase().replace(/-/g,'_');
-				if (key in NamedPatterns) {
-					return NamedPatterns[key];
+		
+		// convert URL pattern to regular expression
+		function convert (pattern, defaultRegExp) {
+			return pattern.replace(/(\*)|(?:{([^{}]*)})|([\[\]\(\)])|([-\/\{\}\*\+\?\.\\\^\$\|])/g, function (all, star, name, group, esc) {
+				if (star) {
+					return defaultRegExp;
 				}
-				throw new SyntaxError("illegal named pattern: "+name);
-			}
-			else {
-				return "\\"+esc;
-			}
-		});
+				else if (group) {
+					switch (group) {
+						case "(":
+							stack.push(")");
+							return "(";
+						case ")":
+							if (stack.pop() !== ")") {
+								throw new SyntaxError("unexpected ')' in "+JSON.stringify(patterns[i]));
+							}
+							return ")";
+						case "[":
+							stack.push("]");
+							return "(?:";
+						case "]":
+							if (stack.pop() !== "]") {
+								throw new SyntaxError("unexpected ']' in "+JSON.stringify(patterns[i]));
+							}
+							return ")?";
+					}
+				}
+				else if (name) {
+					var key = name.toLowerCase().replace(/-/g,'_');
+					if (key in NamedPatterns) {
+						return NamedPatterns[key];
+					}
+					throw new SyntaxError("illegal named pattern '"+name+"' in "+JSON.stringify(patterns[i]));
+				}
+				else {
+					return "\\"+esc;
+				}
+			});
+		}
 	}
 
 	OEmbedRegistry.prototype = {
 		// find matching provider and return expanded endpoint URL
 		match: function (url, options) {
-			var defaultOptions = {format: 'json', url: url, callback: 'callback'};
+			var defaultOptions = {format: 'json', url: url};
 			if (options) {
 				var o = options;
 				options = defaultOptions;

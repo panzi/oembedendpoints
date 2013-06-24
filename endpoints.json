@@ -1,33 +1,27 @@
 {
 	"https://speakerdeck.com/oembed.{format}": [
-		"https://speakerdeck.com/*",
-		"http://speakerdeck.com/*"
+		"http[s]://speakerdeck.com/*"
 	],
 	"https://alpha-api.app.net/oembed": [
-		"https://alpha.app.net/*/post/*",
-		"http://alpha.app.net/*/post/*",
-		"https://photos.app.net/*/*",
-		"http://photos.app.net/*/*"
+		"http[s]://alpha.app.net/*/post/*",
+		"http[s]://photos.app.net/*/*"
 	],
 	"http://www.youtube.com/oembed": [
-		"http://*youtube.com/watch*",
-		"http://*.youtube.com/v/*",
-		"https://*youtube.com/watch*",
-		"https://*.youtube.com/v/*",
-		"http://youtu.be/*",
-		"http://*.youtube.com/user/*",
-		"http://*.youtube.com/*#*/*",
-		"http://m.youtube.com/watch*",
-		"http://m.youtube.com/index*",
-		"http://*.youtube.com/profile*",
-		"http://*.youtube.com/view_play_list*",
-		"http://*.youtube.com/playlist*"
+		"http[s]://[*.]youtube.com/watch*",
+		"http[s]://[*.]youtube.com/v/*",
+		"http[s]://youtu.be/*",
+		"http[s]://[*.]youtube.com/user/*",
+		"http[s]://[*.]youtube.com/*#*/*",
+		"http[s]://m.youtube.com/index*",
+		"http[s]://[*.]youtube.com/profile*",
+		"http[s]://[*.]youtube.com/view_play_list*",
+		"http[s]://[*.]youtube.com/playlist*"
 	],
 	"http://backend.deviantart.com/oembed": [
-		"http://*.deviantart.com/art/*",
+		"http://[*.]deviantart.com/art/*",
 		"http://fav.me/*",
 		"http://sta.sh/*",
-		"http://*.deviantart.com/*#/d*"
+		"http://[*.]deviantart.com/*#/d*"
 	],
 	"http://blip.tv/oembed/": [
 		"http://*.blip.tv/*"
@@ -65,8 +59,9 @@
 		"http://dotsub.com/view/*"
 	],
 	"http://www.yfrog.com/api/oembed": [
-		"http://yfrog.*/*",
-		"http://www.yfrog.*/*"
+		"http://[www.]yfrog.*/*",
+		"http://[www.]yfrog.co.*/*",
+		"http://[www.]yfrog.com.*/*"
 	],
 	"http://clikthrough.com/services/oembed": [
 		"http://*.clikthrough.com/theater/video/*"
@@ -75,10 +70,8 @@
 		"http://*.kinomap.com/*"
 	],
 	"http://photobucket.com/oembed": [
-		"http://photobucket.com/albums/*",
-		"http://photobucket.com/groups/*",
-		"http://*.photobucket.com/albums/*",
-		"http://*.photobucket.com/groups/*"
+		"http://[*.]photobucket.com/albums/*",
+		"http://[*.]photobucket.com/groups/*"
 	],
 	"http://api.instagram.com/oembed": [
 		"http://instagr.am/p/*",
@@ -95,23 +88,14 @@
 		"http://my.opera.com/*"
 	],
 	"http://skitch.com/oembed": [
-		"http://skitch.com/*",
-		"https://skitch.com/*",
-		"http://www.skitch.com/*",
-		"https://www.skitch.com/*",
+		"http[s]://[www.]skitch.com/*",
 		"http://skit.ch/*"
 	],
 	"https://api.twitter.com/1/statuses/oembed.{format}": [
-		"http://twitter.com/*/status/*",
-		"https://twitter.com/*/status/*",
-		"http://twitter.com/#!*/status/*",
-		"https://twitter.com/#!*/status/*"
+		"http[s]://twitter.com/[#!]*/status/*"
 	],
 	"http://clikthrough.com/services/oembed": [
-		"http://clikthrough.com/",
-		"https://clikthrough.com/",
-		"http://www.clikthrough.com/",
-		"https://www.clikthrough.com/"
+		"http[s]://[www.]clikthrough.com/"
 	],
 	"http://soundcloud.com/oembed": [
 		"https://soundcloud.com/*/*"
@@ -128,12 +112,10 @@
 		"http://www.ifixit.com/*/*/*"
 	],
 	"http://api.smugmug.com/services/oembed/": [
-		"http://www.smugmug.com/*",
-		"https://www.smugmug.com/*"
+		"http[s]://www.smugmug.com/*"
 	],
 	"https://github.com/api/oembed": [
-		"http://gist.github.com/*",
-		"https://gist.github.com/*"
+		"http[s]://gist.github.com/*"
 	],
 	"http://animoto.com/services/oembed": [
 		"http://animoto.com/play/*"
@@ -146,8 +128,7 @@
 		"http://www.5min.com/video/*"
 	],
 	"http://500px.com/photo/{1}/oembed.{format}": [
-		"http://500px.com/photo/({path-component})",
-		"http://500px.com/photo/({path-component})*"
+		"http://500px.com/photo/(*)[*]"
 	],
 	"http://api.dipdive.com/oembed.{format}": [
 		"http://*.dipdive.com/media/*"
@@ -162,8 +143,7 @@
 		"http://*.kickstarter.com/projects/*"
 	],
 	"http://coub.com/api/oembed.{format}": [
-		"http://coub.com/view/*",
-		"https://coub.com/view/*"
+		"http[s]://coub.com/view/*"
 	],
 	"http://www.screenr.com/api/oembed.{format}": [
 		"http://www.screenr.com/*"
