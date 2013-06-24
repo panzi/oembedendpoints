@@ -36,7 +36,8 @@
 		"http://*.dailymotion.com/*"
 	],
 	"http://www.flickr.com/services/oembed/": [
-		"http://*.flickr.com/photos/*"
+		"http://*.flickr.com/photos/*",
+		"http://flic.kr.com/*"
 	],
 	"http://www.hulu.com/api/oembed.{format}": [
 		"http://www.hulu.com/watch/*"
@@ -64,7 +65,8 @@
 		"http://dotsub.com/view/*"
 	],
 	"http://www.yfrog.com/api/oembed": [
-		"http://yfrog.*/*"
+		"http://yfrog.*/*",
+		"http://www.yfrog.*/*"
 	],
 	"http://clikthrough.com/services/oembed": [
 		"http://*.clikthrough.com/theater/video/*"
@@ -73,7 +75,102 @@
 		"http://*.kinomap.com/*"
 	],
 	"http://photobucket.com/oembed": [
+		"http://photobucket.com/albums/*",
+		"http://photobucket.com/groups/*",
 		"http://*.photobucket.com/albums/*",
 		"http://*.photobucket.com/groups/*"
+	],
+	"http://api.instagram.com/oembed": [
+		"http://instagr.am/p/*",
+		"http://instagram.com/p/*"
+	],
+	"http://www.slideshare.net/api/oembed/2": [
+		"http://www.slideshare.net/*"
+	],
+	"http://tv.majorleaguegaming.com/oembed": [
+		"http://mlg.tv/*",
+		"http://tv.majorleaguegaming.com/*"
+	],
+	"http://my.opera.com/service/oembed": [
+		"http://my.opera.com/*"
+	],
+	"http://skitch.com/oembed": [
+		"http://skitch.com/*",
+		"https://skitch.com/*",
+		"http://www.skitch.com/*",
+		"https://www.skitch.com/*",
+		"http://skit.ch/*"
+	],
+	"https://api.twitter.com/1/statuses/oembed.{format}": [
+		"http://twitter.com/*/status/*",
+		"https://twitter.com/*/status/*",
+		"http://twitter.com/#!*/status/*",
+		"https://twitter.com/#!*/status/*"
+	],
+	"http://clikthrough.com/services/oembed": [
+		"http://clikthrough.com/",
+		"https://clikthrough.com/",
+		"http://www.clikthrough.com/",
+		"https://www.clikthrough.com/"
+	],
+	"http://soundcloud.com/oembed": [
+		"https://soundcloud.com/*/*"
+	],
+	"http://www.collegehumor.com/oembed.{format}": [
+		"http://www.collegehumor.com/video/*"
+	],
+	"http://www.polleverywhere.com/services/oembed/": [
+		"http://www.polleverywhere.com/polls/*",
+		"http://www.polleverywhere.com/multiple_choice_polls/*",
+		"http://www.polleverywhere.com/free_text_polls/*"
+	],
+	"http://www.ifixit.com/Embed": [
+		"http://www.ifixit.com/*/*/*"
+	],
+	"http://api.smugmug.com/services/oembed/": [
+		"http://www.smugmug.com/*",
+		"https://www.smugmug.com/*"
+	],
+	"https://github.com/api/oembed": [
+		"http://gist.github.com/*",
+		"https://gist.github.com/*"
+	],
+	"http://animoto.com/services/oembed": [
+		"http://animoto.com/play/*"
+	],
+	"http://www.rdio.com/api/oembed": [
+		"http://rdio.com/people/*/playlists/*",
+		"http://rdio.com/artist/*/album/*"
+	],
+	"http://api.5min.com/oembed.{format}": [
+		"http://www.5min.com/video/*"
+	],
+	"http://500px.com/photo/{1}/oembed.{format}": [
+		"http://500px.com/photo/(*)*"
+	],
+	"http://api.dipdive.com/oembed.{format}": [
+		"http://*.dipdive.com/media/*"
+	],
+	"http://video.yandex.ru/oembed.{format}": [
+		"http://video.yandex.ru/users/*/view/*"
+	],
+	"http://www.mixcloud.com/oembed/": [
+		"http://www.mixcloud.com/oembed/*/*"
+	],
+	"http://www.kickstarter.com/services/oembed": [
+		"http://*.kickstarter.com/projects/*"
+	],
+	"http://coub.com/api/oembed.{format}": [
+		"http://coub.com/view/*",
+		"https://coub.com/view/*"
+	],
+	"http://www.screenr.com/api/oembed.{format}": [
+		"http://www.screenr.com/*"
+	],
+	"http://www.funnyordie.com/oembed.{format}": [
+		"http://www.funnyordie.com/videos/*"
+	],
+	"http://fast.wistia.com/oembed.{format}": [
+		"http://*.wista.com/medias/*"
 	]
 }
