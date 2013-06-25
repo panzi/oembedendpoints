@@ -40,7 +40,8 @@
 		"http://*.nfb.ca/film/*"
 	],
 	"http://qik.com/api/oembed.{format}": [
-		"http://qik.com/*"
+		"http://qik.com/*",
+		"http://qik.ly/*"
 	],
 	"http://revision3.com/api/oembed/": [
 		"http://*.revision3.com/*"
@@ -48,7 +49,8 @@
 	"http://www.scribd.com/services/oembed": [
 		"http://*.scribd.com/*"
 	],
-	"http://lab.viddler.com/services/oembed/": [
+	"http://www.viddler.com/oembed/": [
+		"http://*.viddler.com/v/*",
 		"http://*.viddler.com/explore/*"
 	],
 	"http://www.vimeo.com/api/oembed.{format}": [
@@ -64,7 +66,7 @@
 		"http://[www.]yfrog.com.*/*"
 	],
 	"http://clikthrough.com/services/oembed": [
-		"http://*.clikthrough.com/theater/video/*"
+		"http[s]://[*.]clikthrough.com/*"
 	],
 	"http://www.kinomap.com/oembed": [
 		"http://*.kinomap.com/*"
@@ -94,14 +96,12 @@
 	"https://api.twitter.com/1/statuses/oembed.{format}": [
 		"http[s]://twitter.com/[#!]*/status/*"
 	],
-	"http://clikthrough.com/services/oembed": [
-		"http[s]://[www.]clikthrough.com/"
-	],
 	"http://soundcloud.com/oembed": [
 		"https://soundcloud.com/*/*"
 	],
 	"http://www.collegehumor.com/oembed.{format}": [
-		"http://www.collegehumor.com/video/*"
+		"http://[www.]collegehumor.com/video/*",
+		"http://[www.]collegehumor.com/video:*"
 	],
 	"http://www.polleverywhere.com/services/oembed/": [
 		"http://www.polleverywhere.com/polls/*",
@@ -143,7 +143,8 @@
 		"http://*.kickstarter.com/projects/*"
 	],
 	"http://coub.com/api/oembed.{format}": [
-		"http[s]://coub.com/view/*"
+		"http[s]://coub.com/view/*",
+		"http[s]://coub.com/embed/*"
 	],
 	"http://www.screenr.com/api/oembed.{format}": [
 		"http://www.screenr.com/*"
@@ -153,5 +154,60 @@
 	],
 	"http://fast.wistia.com/oembed.{format}": [
 		"http://*.wista.com/medias/*"
+	],
+	"http://www.ustream.tv/oembed": [
+		"http[s]://[www.]ustream.tv/*",
+		"http[s]://[www.]ustream.com/*",
+		"http://ustre.am/*"
+	],
+	"http://wordpress.tv/oembed/": [
+		"http://wordpress.tv/*"
+	],
+	"http://polldaddy.com/oembed/": [
+		"http[s]://[*.]polldaddy.com/*"
+	],
+	"http://api.bambuser.com/oembed.{format}": [
+		"http://bambuser.com/channel/*/broadcast/*",
+		"http://bambuser.com/channel/*",
+		"http://bambuser.com/v/*"
+	],
+	"http://www.ted.com/talks/oembed.{format}": [
+		"http[s]://[www.]ted.com/talks/*",
+		"http[s]://[www.]ted.com/talks/lang/*/*",
+		"http[s]://[www.]ted.com/index.php/talks/*",
+		"http[s]://[www.]ted.com/index.php/talks/lang/*/*"
+	],
+	"http://chirb.it/oembed.{format}": [
+		"http://chirb.it/*"
+	],
+	"https://www.circuitlab.com/circuit/oembed/": [
+		"http[s]://[www.]circuitlab.com/circuit/*"
+	],
+	"http://api.geograph.org.uk/api/oembed": [
+		"http://[*.]geograph.org.uk/*",
+		"http://[*.]geograph.co.uk/*",
+		"http://[*.]geograph.ie/*"
+	],
+	"http://geo.hlipp.de/restapi.php/api/oembed": [
+		"http://geo-en.hlipp.de/*",
+		"http://geo.hlipp.de/*",
+		"http://germany.geograph.org/*"
+	],
+	"http://www.geograph.org.gg/api/oembed": [
+		"http://[*.]geograph.org.gg/*",
+		"http://[*.]geograph.org.je/*",
+		"http://channel-islands.geograph.org/*",
+		"http://channel-islands.geographs.org/*",
+		"http://[*.]channel.geographs.org/*"
+	],
+	"http://www.nfb.ca/remote/services/oembed/": [
+		"http://[*.]nfb.ca/film/*"
+	],
+	"http://vzaar.com/api/videos/{1}.{format}": [
+		"http://[www.]vzaar.com/videos/(*)[*]",
+		"http://www.vzaar.tv/(*)[*]",
+		"http://vzaar.tv/(*)[*]",
+		"http://vzaar.me/(*)[*]",
+		"http://*.vzaar.me/(*)[*]"
 	]
 }

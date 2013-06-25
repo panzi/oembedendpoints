@@ -1,0 +1,8 @@
+{
+	"http://on.aol.com/api": [
+		"http://on.aol.com/*"
+	],
+	"http://www.schooltube.com/oembed.{format}": [
+		"http://www.schooltube.com/video/*/*"
+	]
+}
