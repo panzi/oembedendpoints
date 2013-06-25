@@ -1,0 +1,8 @@
+{
+	"http://public-api.wordpress.com/oembed/1.0/?for={for}": [
+		"http[s]://[*.]wordpress.com/*",
+		"http[s]://wp.me/*",
+		"http[s]://qz.com/*/*",
+		"http[s]://techcrunch.com/*/*"
+	]
+}
