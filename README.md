@@ -35,6 +35,10 @@ commonly used if the endpoint supports JSONP. Currently only `{format}` is used 
 And then there are patterns that reference match groups in the URL patterns, e.g. `{1}`
 for the first matched group, `{2}` for the second etc.
 
+If a pattern occures in the query string of URL it's value should be URL-encoded.
+
+**TODO:** Maybe it should be URL encoded in any case?
+
 ### Pattern Syntax
 
 There are several named patterns:
@@ -62,6 +66,13 @@ syntax is different in every programming language. However, this pattern languag
 be easy to convert to regular expressions. See an example of how this can be done in
 `oembedregistry.js`.
 
+broken-endpoints.json
+---------------------
+
+The endpoints listed in this file return broken responses.
+[http://www.schooltube.com/oembed.json](http://www.schooltube.com/) returns JSON that does
+not parse and [on.aol.com](http://on.aol.com/api) sets every field to `null` or `0`.
+
 Sources
 -------
 
@@ -70,9 +81,10 @@ Sources used to compile this list where amongst others (I'm still working throug
  * [oohEmbed](http://oohembed.com): [endpoints.json](https://code.google.com/p/oohembed/source/browse/app/provider/endpoints.json)
  * [embedr](https://github.com/agoragames/oembedr): [providers.rb](https://github.com/agoragames/oembedr/blob/master/lib/oembedr/providers.rb)
  * [iframely](https://github.com/itteco/iframely): [providers.json](https://github.com/itteco/iframely/blob/master/providers.json)
+ * [Foswiki OEmbed Extension](http://foswiki.org/Extensions/OEmbedPlugin): `lib/Foswiki/Plugins/OembedPlugin/Config.spec`
  * [embed.ly](http://embed.ly): [services](http://api.embed.ly/1/services)
 
 License
 -------
 
-The file `endpoints.json` is in the public domain.
+The files `endpoints.json`, `broken-endpoints.json` and `endpoints-regexp.json` are in the public domain.
