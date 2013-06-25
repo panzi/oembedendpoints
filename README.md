@@ -43,13 +43,13 @@ If a pattern occures in the query string of URL it's value should be URL-encoded
 
 There are several named patterns:
 
-`{protocol}` is any valid protocol, without `:` 
-`{domain}` is any valid domain name, without `.` 
-`{path}` is any URI path string (no query string or anchor) 
-`{path-component}` is any URI path string that does not contain `/` 
-`{query}` is any query string, starting with `?` 
-`{anchor}` is any anchor, starting with `#` 
-`{any}` any non-zero length string 
+ * `{protocol}` is any valid protocol, without `:` 
+ * `{domain}` is any valid domain name, without `.` 
+ * `{path}` is any URI path string (no query string or anchor) 
+ * `{path-component}` is any URI path string that does not contain `/` 
+ * `{query}` is any query string, starting with `?` 
+ * `{anchor}` is any anchor, starting with `#` 
+ * `{any}` any non-zero length string 
 
 The meaning of the `*` placeholder depends on where it occurs. In the protocol part
 of an URL it expands to `{protocol}`, in the hsotname part it expands to `{domain}`
