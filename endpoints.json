@@ -54,8 +54,8 @@
 		"http://*.viddler.com/explore/*"
 	],
 	"http://www.vimeo.com/api/oembed.{format}": [
-		"http://www.vimeo.com/*",
-		"http://www.vimeo.com/groups/*/videos/*"
+		"http[s]://[www.]vimeo.com/*",
+		"http[s]://player.vimeo.com/*"
 	],
 	"http://dotsub.com/services/oembed": [
 		"http://dotsub.com/view/*"
@@ -71,7 +71,7 @@
 	"http://www.kinomap.com/oembed": [
 		"http://*.kinomap.com/*"
 	],
-	"http://photobucket.com/oembed": [
+	"https://photobucket.com/oembed": [
 		"http://[*.]photobucket.com/albums/*",
 		"http://[*.]photobucket.com/groups/*"
 	],
@@ -79,7 +79,7 @@
 		"http://instagr.am/p/*",
 		"http://instagram.com/p/*"
 	],
-	"http://www.slideshare.net/api/oembed/2": [
+	"https://www.slideshare.net/api/oembed/2": [
 		"http://www.slideshare.net/*"
 	],
 	"http://tv.majorleaguegaming.com/oembed": [
@@ -96,7 +96,7 @@
 	"https://api.twitter.com/1/statuses/oembed.{format}": [
 		"http[s]://twitter.com/[#!]*/status/*"
 	],
-	"http://soundcloud.com/oembed": [
+	"https://soundcloud.com/oembed": [
 		"https://soundcloud.com/*/*"
 	],
 	"http://www.collegehumor.com/oembed.{format}": [
@@ -209,5 +209,72 @@
 		"http://vzaar.tv/(*)[*]",
 		"http://vzaar.me/(*)[*]",
 		"http://*.vzaar.me/(*)[*]"
+	],
+	"http://api.minoto-video.com/services/oembed.{format}": [
+		"http://api.minoto-video.com/publishers/*/videos/*",
+		"http://dashboard.minoto-video.com/main/video/details/*",
+		"http://embed.minoto-video.com/*"
+	],
+	"http://www.videojug.com/oembed.{format}": [
+		"http[s]://[*.]videojug.com/film/*",
+		"http[s]://[*.]videojug.com/payer/*",
+		"http[s]://[*.]videojug.com/interview/*"
+	],
+	"http://videos.sapo.pt/oembed": [
+		"http[s]://videos.sapo.pt/*"
+	],
+	"http://vhx.tv/services/oembed.{format}": [
+		"http[s]://[www.]vhx.tv/*"
+	],
+	"http://api.justin.tv/api/embed/from_url.{format}": [
+		"http[s]://[www.]justin.tv/*"
+	],
+	"http://official.fm/services/oembed.{format}": [
+		"http[s]://official.fm/*"
+	],
+	"http://huffduffer.com/oembed": [
+		"http[s]://[www.]huffduffer.com/*/*"
+	],
+	"https://embed.spotify.com/oembed/": [
+		"http[s]://open.spotify.com/*",
+		"http[s]://spoti.fi/*"
+	],
+	"http://shoudio.com/api/oembed": [
+		"http://shoudio.com/*",
+		"http://shoud.io/*"
+	],
+	"http://api.mobypicture.com/oEmbed": [
+		"http[s]://[www.]mobypicture.com/user/*/view/*",
+		"http[s]://[www.]moby.to/*"
+	],
+	"http://www.23hq.com/23/oembed": [
+		"http[s]://[www.]23hq.com/*/photo/*"
+	],
+	"http://gmep.org/oembed.{format}": [
+		"http[s]://[www.]gmep.org/*",
+		"http[s]://gmep.imeducate.com/*"
+	],
+	"http://oembed.urtak.com/1/oembed": [
+		"http[s]://[*.]urtak.com/*"
+	],
+	"http://cacoo.com/oembed.{format}": [
+		"http[s]://cacoo.com/*"
+	],
+	"http://api.dailymile.com/oembed": [
+		"http[s]://[www.]dailymile.com/people/*/entries/*"
+	],
+	"http://www.dipity.com/oembed/timeline/": [
+		"http[s]://[www.]dipity.com/timeline/*",
+		"http[s]://[www.]dipity.com/voaweb/*"
+	],
+	"https://sketchfab.com/oembed": [
+		"http[s]://sketchfab.com/show/*"
+	],
+	"https://api.meetup.com/oembed": [
+		"http[s]://[www.]meetup.com/*",
+		"http[s]://[www.]meetup.ps/*"
+	],
+	"https://roomshare.jp/oembed.{format}": [
+		"http[s]://[www.]roomshare.jp/[en/]post/*"
 	]
 }

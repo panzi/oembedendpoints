@@ -4,5 +4,8 @@
 	],
 	"http://www.schooltube.com/oembed.{format}": [
 		"http://www.schooltube.com/video/*/*"
+	],
+	"http://video.pbs.org/oembed/": [
+		"http://video.pbs.org/video/*"
 	]
 }
