@@ -273,5 +273,12 @@
     ],
     "https://roomshare.jp/oembed.{format}": [
         "^http(?:s)?:\\/\\/(?:www\\.)?roomshare\\.jp\\/(?:en\\/)?post\\/.+$"
+    ],
+    "http://crowdranking.com/api/oembed.{format}": [
+        "^http(?:s)?:\\/\\/crowdranking\\.com\\/crowdrankings\\/.+$",
+        "^http(?:s)?:\\/\\/crowdranking\\.com\\/rankings\\/.+$",
+        "^http(?:s)?:\\/\\/crowdranking\\.com\\/topics\\/.+$",
+        "^http(?:s)?:\\/\\/crowdranking\\.com\\/widgets\\/.+$",
+        "^http(?:s)?:\\/\\/crowdranking\\.com\\/r\\/.+$"
     ]
 }
