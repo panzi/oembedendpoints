@@ -61,9 +61,8 @@
         "^http:\\/\\/dotsub\\.com\\/view\\/.+$"
     ],
     "http://www.yfrog.com/api/oembed": [
-        "^http:\\/\\/(?:www\\.)?yfrog\\.[-\\w]+\\/.+$",
-        "^http:\\/\\/(?:www\\.)?yfrog\\.co\\.[-\\w]+\\/.+$",
-        "^http:\\/\\/(?:www\\.)?yfrog\\.com\\.[-\\w]+\\/.+$"
+        "^http(?:s)?:\\/\\/(?:www\\.)?yfrog\\.com\\/.+$",
+        "^http(?:s)?:\\/\\/(?:www\\.)?yfrog\\.us\\/.+$"
     ],
     "http://clikthrough.com/services/oembed": [
         "^http(?:s)?:\\/\\/(?:[-\\w]+\\.)?clikthrough\\.com\\/.+$"

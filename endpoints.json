@@ -61,9 +61,8 @@
 		"http://dotsub.com/view/*"
 	],
 	"http://www.yfrog.com/api/oembed": [
-		"http://[www.]yfrog.*/*",
-		"http://[www.]yfrog.co.*/*",
-		"http://[www.]yfrog.com.*/*"
+		"http[s]://[www.]yfrog.com/*",
+		"http[s]://[www.]yfrog.us/*"
 	],
 	"http://clikthrough.com/services/oembed": [
 		"http[s]://[*.]clikthrough.com/*"

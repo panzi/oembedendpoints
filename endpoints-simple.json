@@ -94,12 +94,14 @@
         "http://dotsub.com/view/*"
     ],
     "http://www.yfrog.com/api/oembed": [
-        "http://yfrog.*/*",
-        "http://www.yfrog.*/*",
-        "http://yfrog.co.*/*",
-        "http://www.yfrog.co.*/*",
-        "http://yfrog.com.*/*",
-        "http://www.yfrog.com.*/*"
+        "http://yfrog.com/*",
+        "http://www.yfrog.com/*",
+        "https://yfrog.com/*",
+        "https://www.yfrog.com/*",
+        "http://yfrog.us/*",
+        "http://www.yfrog.us/*",
+        "https://yfrog.us/*",
+        "https://www.yfrog.us/*"
     ],
     "http://clikthrough.com/services/oembed": [
         "http://clikthrough.com/*",
