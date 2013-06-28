@@ -22,7 +22,8 @@ to JavaScript compatible regular expressions. It is auto-generated with `make.js
 This file contains mostly the same data as `endpoints.json`, but the URL patterns are
 converted to the URL pattern syntax specified on [oembed.com](http://oembed.com/). Because
 there is no way to reference certain proportions of the matched URL in this syntax it
-does not contain the endpoints that require this. It is auto-generated with `make.js`.
+does not contain the endpoints that require this (endpoints that don't actually take the
+`url` parameter). It is auto-generated with `make.js`.
 
 ### broken-endpoints.json
 
