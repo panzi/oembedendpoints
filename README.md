@@ -12,6 +12,18 @@ like [embed.ly](http://embed.ly) or endpoints that need some kind of API key lik
 [wordpress.com](http://wordpress.com/). The completness of this list, the supported URL
 patterns for each endpoint or whether the endpoints actually work is not guaranteed.
 
+### endpoints-regexp.json
+
+This file contains the same data as `endpoints.json`, but the URL patterns are converted
+to JavaScript compatible regular expressions. It is auto-generated with `make.js`.
+
+### endpoints-simple.json
+
+This file contains mostly the same data as `endpoints.json`, but the URL patterns are
+converted to the URL pattern syntax specified on [oembed.com](http://oembed.com/). Because
+there is no way to reference certain proportions of the matched URL in this syntax it
+does not contain the endpoints that require this. It is auto-generated with `make.js`.
+
 ### broken-endpoints.json
 
 The endpoints listed in this file return broken responses.
@@ -97,5 +109,5 @@ Sources used to compile this list where amongst others (I'm still working throug
 License
 -------
 
-The files `endpoints.json`, `broken-endpoints.json`, `wordpress-endpoints.json` and
-`endpoints-regexp.json` are in the public domain.
+The files `endpoints.json`, `broken-endpoints.json`, `wordpress-endpoints.json`,
+`endpoints-regexp.json` and `endpoints-simple.json` are in the public domain.
