@@ -1,13 +1,13 @@
-OEmbed Endpoints
+oEmbed Endpoints
 ================
 
-This is a simple file based registry of know [oembed](http://oembed.com/) endpoints.
+This is a simple file based registry of know [oEmbed](http://oembed.com/) endpoints.
 If you know endpoints that aren't listed here please fork this project, add the endpoints
 and send me a pull request.
 
 ### endpoints.json
 
-This file lists all oembed endpoints I could find. It does not contain oembed proxies
+This file lists all oEmbed endpoints I could find. It does not contain oEmbed proxies
 like [embed.ly](http://embed.ly) or endpoints that need some kind of API key like
 [wordpress.com](http://wordpress.com/). The completness of this list, the supported URL
 patterns for each endpoint or whether the endpoints actually work is not guaranteed.
@@ -22,7 +22,7 @@ source but doesn't actually work. It returns a HTML 404 page.
 
 ### wordpress-endpoints.json
 
-The wordpress oembed endpoint needs the extra parmeter `for` through which the consumer
+The wordpress oEmbed endpoint needs the extra parmeter `for` through which the consumer
 must identify itself.
 
 File format
@@ -43,7 +43,7 @@ File format
 
 The endpoint URL may contain several patterns.
 
-There are named patterns that reference standard oembed parameters: `{format}`, `{url}`,
+There are named patterns that reference standard oEmbed parameters: `{format}`, `{url}`,
 `{maxwidth}`, `{maxheight}`, `{callback}`. `{callback}` is not strictly standard but it's
 commonly used if the endpoint supports JSONP. Currently only `{format}` is used in
 `endpoints.json`.
