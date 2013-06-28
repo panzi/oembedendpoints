@@ -65,7 +65,7 @@ There are several named patterns:
  * `{path-component}` is any URI path string that does not contain `/`
  * `{query}` is any query string, starting with `?`
  * `{anchor}` is any anchor, starting with `#`
- * `{any}` any non-zero length string
+ * `{any}` is any non-zero length string
 
 The meaning of the `*` placeholder depends on where it occurs. In the protocol part
 of an URL it expands to `{protocol}`, in the hsotname part it expands to `{domain}`

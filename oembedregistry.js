@@ -50,7 +50,7 @@ var OEmbedRegistry = (function (undefined) {
 		
 		// convert URL pattern to regular expression
 		function convert (pattern, defaultRegExp) {
-			return pattern.replace(/(\*)|(?:{([^{}]*)})|([\[\]\(\)])|([-\/\{\}\*\+\?\.\\\^\$\|])/g, function (all, star, name, group, esc) {
+			return pattern.replace(/(\*)|(?:\{([^\{\}]*)\})|([\[\]\(\)])|([-\/\{\}\*\+\?\.\\\^\$\|])/g, function (all, star, name, group, esc) {
 				if (star) {
 					return defaultRegExp;
 				}
@@ -144,7 +144,7 @@ var OEmbedRegistry = (function (undefined) {
 	
 	function expand (s, match, options, expanded, encode) {
 		if (!encode) encode = function (val) { return val; };
-		return s.replace(/{(\d+)}|{([^{}]+)}/g, function (all, index, name) {
+		return s.replace(/\{(\d+)\}|\{([^\{\}]+)\}/g, function (all, index, name) {
 			if (index) {
 				return encode(match[index]);
 			}

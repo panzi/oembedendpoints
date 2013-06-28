@@ -1,0 +1,424 @@
+{
+    "https://speakerdeck.com/oembed.{format}": [
+        "http://speakerdeck.com/*",
+        "https://speakerdeck.com/*"
+    ],
+    "https://alpha-api.app.net/oembed": [
+        "http://alpha.app.net/*/post/*",
+        "https://alpha.app.net/*/post/*",
+        "http://photos.app.net/*/*",
+        "https://photos.app.net/*/*"
+    ],
+    "http://www.youtube.com/oembed": [
+        "http://youtube.com/watch*",
+        "http://*.youtube.com/watch*",
+        "https://youtube.com/watch*",
+        "https://*.youtube.com/watch*",
+        "http://youtube.com/v/*",
+        "http://*.youtube.com/v/*",
+        "https://youtube.com/v/*",
+        "https://*.youtube.com/v/*",
+        "http://youtu.be/*",
+        "https://youtu.be/*",
+        "http://youtube.com/user/*",
+        "http://*.youtube.com/user/*",
+        "https://youtube.com/user/*",
+        "https://*.youtube.com/user/*",
+        "http://youtube.com/*#*/*",
+        "http://*.youtube.com/*#*/*",
+        "https://youtube.com/*#*/*",
+        "https://*.youtube.com/*#*/*",
+        "http://m.youtube.com/index*",
+        "https://m.youtube.com/index*",
+        "http://youtube.com/profile*",
+        "http://*.youtube.com/profile*",
+        "https://youtube.com/profile*",
+        "https://*.youtube.com/profile*",
+        "http://youtube.com/view_play_list*",
+        "http://*.youtube.com/view_play_list*",
+        "https://youtube.com/view_play_list*",
+        "https://*.youtube.com/view_play_list*",
+        "http://youtube.com/playlist*",
+        "http://*.youtube.com/playlist*",
+        "https://youtube.com/playlist*",
+        "https://*.youtube.com/playlist*"
+    ],
+    "http://backend.deviantart.com/oembed": [
+        "http://deviantart.com/art/*",
+        "http://*.deviantart.com/art/*",
+        "http://fav.me/*",
+        "http://sta.sh/*",
+        "http://deviantart.com/*#/d*",
+        "http://*.deviantart.com/*#/d*"
+    ],
+    "http://blip.tv/oembed/": [
+        "http://*.blip.tv/*"
+    ],
+    "http://www.dailymotion.com/api/oembed/": [
+        "http://*.dailymotion.com/*"
+    ],
+    "http://www.flickr.com/services/oembed/": [
+        "http://*.flickr.com/photos/*",
+        "http://flic.kr.com/*"
+    ],
+    "http://www.hulu.com/api/oembed.{format}": [
+        "http://www.hulu.com/watch/*"
+    ],
+    "http://www.nfb.ca/remote/services/oembed/": [
+        "http://nfb.ca/film/*",
+        "http://*.nfb.ca/film/*"
+    ],
+    "http://qik.com/api/oembed.{format}": [
+        "http://qik.com/*",
+        "http://qik.ly/*"
+    ],
+    "http://revision3.com/api/oembed/": [
+        "http://*.revision3.com/*"
+    ],
+    "http://www.scribd.com/services/oembed": [
+        "http://*.scribd.com/*"
+    ],
+    "http://www.viddler.com/oembed/": [
+        "http://*.viddler.com/v/*",
+        "http://*.viddler.com/explore/*"
+    ],
+    "http://www.vimeo.com/api/oembed.{format}": [
+        "http://vimeo.com/*",
+        "http://www.vimeo.com/*",
+        "https://vimeo.com/*",
+        "https://www.vimeo.com/*",
+        "http://player.vimeo.com/*",
+        "https://player.vimeo.com/*"
+    ],
+    "http://dotsub.com/services/oembed": [
+        "http://dotsub.com/view/*"
+    ],
+    "http://www.yfrog.com/api/oembed": [
+        "http://yfrog.*/*",
+        "http://www.yfrog.*/*",
+        "http://yfrog.co.*/*",
+        "http://www.yfrog.co.*/*",
+        "http://yfrog.com.*/*",
+        "http://www.yfrog.com.*/*"
+    ],
+    "http://clikthrough.com/services/oembed": [
+        "http://clikthrough.com/*",
+        "http://*.clikthrough.com/*",
+        "https://clikthrough.com/*",
+        "https://*.clikthrough.com/*"
+    ],
+    "http://www.kinomap.com/oembed": [
+        "http://*.kinomap.com/*"
+    ],
+    "https://photobucket.com/oembed": [
+        "http://photobucket.com/albums/*",
+        "http://*.photobucket.com/albums/*",
+        "http://photobucket.com/groups/*",
+        "http://*.photobucket.com/groups/*"
+    ],
+    "http://api.instagram.com/oembed": [
+        "http://instagr.am/p/*",
+        "http://instagram.com/p/*"
+    ],
+    "https://www.slideshare.net/api/oembed/2": [
+        "http://www.slideshare.net/*"
+    ],
+    "http://tv.majorleaguegaming.com/oembed": [
+        "http://mlg.tv/*",
+        "http://tv.majorleaguegaming.com/*"
+    ],
+    "http://my.opera.com/service/oembed": [
+        "http://my.opera.com/*"
+    ],
+    "http://skitch.com/oembed": [
+        "http://skitch.com/*",
+        "http://www.skitch.com/*",
+        "https://skitch.com/*",
+        "https://www.skitch.com/*",
+        "http://skit.ch/*"
+    ],
+    "https://api.twitter.com/1/statuses/oembed.{format}": [
+        "http://twitter.com/*/status/*",
+        "http://twitter.com/#!*/status/*",
+        "https://twitter.com/*/status/*",
+        "https://twitter.com/#!*/status/*"
+    ],
+    "https://soundcloud.com/oembed": [
+        "https://soundcloud.com/*/*"
+    ],
+    "http://www.collegehumor.com/oembed.{format}": [
+        "http://collegehumor.com/video/*",
+        "http://www.collegehumor.com/video/*",
+        "http://collegehumor.com/video:*",
+        "http://www.collegehumor.com/video:*"
+    ],
+    "http://www.polleverywhere.com/services/oembed/": [
+        "http://www.polleverywhere.com/polls/*",
+        "http://www.polleverywhere.com/multiple_choice_polls/*",
+        "http://www.polleverywhere.com/free_text_polls/*"
+    ],
+    "http://www.ifixit.com/Embed": [
+        "http://www.ifixit.com/*/*/*"
+    ],
+    "http://api.smugmug.com/services/oembed/": [
+        "http://www.smugmug.com/*",
+        "https://www.smugmug.com/*"
+    ],
+    "https://github.com/api/oembed": [
+        "http://gist.github.com/*",
+        "https://gist.github.com/*"
+    ],
+    "http://animoto.com/services/oembed": [
+        "http://animoto.com/play/*"
+    ],
+    "http://www.rdio.com/api/oembed": [
+        "http://rdio.com/people/*/playlists/*",
+        "http://rdio.com/artist/*/album/*"
+    ],
+    "http://api.5min.com/oembed.{format}": [
+        "http://www.5min.com/video/*"
+    ],
+    "http://api.dipdive.com/oembed.{format}": [
+        "http://*.dipdive.com/media/*"
+    ],
+    "http://video.yandex.ru/oembed.{format}": [
+        "http://video.yandex.ru/users/*/view/*"
+    ],
+    "http://www.mixcloud.com/oembed/": [
+        "http://www.mixcloud.com/oembed/*/*"
+    ],
+    "http://www.kickstarter.com/services/oembed": [
+        "http://*.kickstarter.com/projects/*"
+    ],
+    "http://coub.com/api/oembed.{format}": [
+        "http://coub.com/view/*",
+        "https://coub.com/view/*",
+        "http://coub.com/embed/*",
+        "https://coub.com/embed/*"
+    ],
+    "http://www.screenr.com/api/oembed.{format}": [
+        "http://www.screenr.com/*"
+    ],
+    "http://www.funnyordie.com/oembed.{format}": [
+        "http://www.funnyordie.com/videos/*"
+    ],
+    "http://fast.wistia.com/oembed.{format}": [
+        "http://*.wista.com/medias/*"
+    ],
+    "http://www.ustream.tv/oembed": [
+        "http://ustream.tv/*",
+        "http://www.ustream.tv/*",
+        "https://ustream.tv/*",
+        "https://www.ustream.tv/*",
+        "http://ustream.com/*",
+        "http://www.ustream.com/*",
+        "https://ustream.com/*",
+        "https://www.ustream.com/*",
+        "http://ustre.am/*"
+    ],
+    "http://wordpress.tv/oembed/": [
+        "http://wordpress.tv/*"
+    ],
+    "http://polldaddy.com/oembed/": [
+        "http://polldaddy.com/*",
+        "http://*.polldaddy.com/*",
+        "https://polldaddy.com/*",
+        "https://*.polldaddy.com/*"
+    ],
+    "http://api.bambuser.com/oembed.{format}": [
+        "http://bambuser.com/channel/*/broadcast/*",
+        "http://bambuser.com/channel/*",
+        "http://bambuser.com/v/*"
+    ],
+    "http://www.ted.com/talks/oembed.{format}": [
+        "http://ted.com/talks/*",
+        "http://www.ted.com/talks/*",
+        "https://ted.com/talks/*",
+        "https://www.ted.com/talks/*",
+        "http://ted.com/talks/lang/*/*",
+        "http://www.ted.com/talks/lang/*/*",
+        "https://ted.com/talks/lang/*/*",
+        "https://www.ted.com/talks/lang/*/*",
+        "http://ted.com/index.php/talks/*",
+        "http://www.ted.com/index.php/talks/*",
+        "https://ted.com/index.php/talks/*",
+        "https://www.ted.com/index.php/talks/*",
+        "http://ted.com/index.php/talks/lang/*/*",
+        "http://www.ted.com/index.php/talks/lang/*/*",
+        "https://ted.com/index.php/talks/lang/*/*",
+        "https://www.ted.com/index.php/talks/lang/*/*"
+    ],
+    "http://chirb.it/oembed.{format}": [
+        "http://chirb.it/*"
+    ],
+    "https://www.circuitlab.com/circuit/oembed/": [
+        "http://circuitlab.com/circuit/*",
+        "http://www.circuitlab.com/circuit/*",
+        "https://circuitlab.com/circuit/*",
+        "https://www.circuitlab.com/circuit/*"
+    ],
+    "http://api.geograph.org.uk/api/oembed": [
+        "http://geograph.org.uk/*",
+        "http://*.geograph.org.uk/*",
+        "http://geograph.co.uk/*",
+        "http://*.geograph.co.uk/*",
+        "http://geograph.ie/*",
+        "http://*.geograph.ie/*"
+    ],
+    "http://geo.hlipp.de/restapi.php/api/oembed": [
+        "http://geo-en.hlipp.de/*",
+        "http://geo.hlipp.de/*",
+        "http://germany.geograph.org/*"
+    ],
+    "http://www.geograph.org.gg/api/oembed": [
+        "http://geograph.org.gg/*",
+        "http://*.geograph.org.gg/*",
+        "http://geograph.org.je/*",
+        "http://*.geograph.org.je/*",
+        "http://channel-islands.geograph.org/*",
+        "http://channel-islands.geographs.org/*",
+        "http://channel.geographs.org/*",
+        "http://*.channel.geographs.org/*"
+    ],
+    "http://api.minoto-video.com/services/oembed.{format}": [
+        "http://api.minoto-video.com/publishers/*/videos/*",
+        "http://dashboard.minoto-video.com/main/video/details/*",
+        "http://embed.minoto-video.com/*"
+    ],
+    "http://www.videojug.com/oembed.{format}": [
+        "http://videojug.com/film/*",
+        "http://*.videojug.com/film/*",
+        "https://videojug.com/film/*",
+        "https://*.videojug.com/film/*",
+        "http://videojug.com/payer/*",
+        "http://*.videojug.com/payer/*",
+        "https://videojug.com/payer/*",
+        "https://*.videojug.com/payer/*",
+        "http://videojug.com/interview/*",
+        "http://*.videojug.com/interview/*",
+        "https://videojug.com/interview/*",
+        "https://*.videojug.com/interview/*"
+    ],
+    "http://videos.sapo.pt/oembed": [
+        "http://videos.sapo.pt/*",
+        "https://videos.sapo.pt/*"
+    ],
+    "http://vhx.tv/services/oembed.{format}": [
+        "http://vhx.tv/*",
+        "http://www.vhx.tv/*",
+        "https://vhx.tv/*",
+        "https://www.vhx.tv/*"
+    ],
+    "http://api.justin.tv/api/embed/from_url.{format}": [
+        "http://justin.tv/*",
+        "http://www.justin.tv/*",
+        "https://justin.tv/*",
+        "https://www.justin.tv/*"
+    ],
+    "http://official.fm/services/oembed.{format}": [
+        "http://official.fm/*",
+        "https://official.fm/*"
+    ],
+    "http://huffduffer.com/oembed": [
+        "http://huffduffer.com/*/*",
+        "http://www.huffduffer.com/*/*",
+        "https://huffduffer.com/*/*",
+        "https://www.huffduffer.com/*/*"
+    ],
+    "https://embed.spotify.com/oembed/": [
+        "http://open.spotify.com/*",
+        "https://open.spotify.com/*",
+        "http://spoti.fi/*",
+        "https://spoti.fi/*"
+    ],
+    "http://shoudio.com/api/oembed": [
+        "http://shoudio.com/*",
+        "http://shoud.io/*"
+    ],
+    "http://api.mobypicture.com/oEmbed": [
+        "http://mobypicture.com/user/*/view/*",
+        "http://www.mobypicture.com/user/*/view/*",
+        "https://mobypicture.com/user/*/view/*",
+        "https://www.mobypicture.com/user/*/view/*",
+        "http://moby.to/*",
+        "http://www.moby.to/*",
+        "https://moby.to/*",
+        "https://www.moby.to/*"
+    ],
+    "http://www.23hq.com/23/oembed": [
+        "http://23hq.com/*/photo/*",
+        "http://www.23hq.com/*/photo/*",
+        "https://23hq.com/*/photo/*",
+        "https://www.23hq.com/*/photo/*"
+    ],
+    "http://gmep.org/oembed.{format}": [
+        "http://gmep.org/*",
+        "http://www.gmep.org/*",
+        "https://gmep.org/*",
+        "https://www.gmep.org/*",
+        "http://gmep.imeducate.com/*",
+        "https://gmep.imeducate.com/*"
+    ],
+    "http://oembed.urtak.com/1/oembed": [
+        "http://urtak.com/*",
+        "http://*.urtak.com/*",
+        "https://urtak.com/*",
+        "https://*.urtak.com/*"
+    ],
+    "http://cacoo.com/oembed.{format}": [
+        "http://cacoo.com/*",
+        "https://cacoo.com/*"
+    ],
+    "http://api.dailymile.com/oembed": [
+        "http://dailymile.com/people/*/entries/*",
+        "http://www.dailymile.com/people/*/entries/*",
+        "https://dailymile.com/people/*/entries/*",
+        "https://www.dailymile.com/people/*/entries/*"
+    ],
+    "http://www.dipity.com/oembed/timeline/": [
+        "http://dipity.com/timeline/*",
+        "http://www.dipity.com/timeline/*",
+        "https://dipity.com/timeline/*",
+        "https://www.dipity.com/timeline/*",
+        "http://dipity.com/voaweb/*",
+        "http://www.dipity.com/voaweb/*",
+        "https://dipity.com/voaweb/*",
+        "https://www.dipity.com/voaweb/*"
+    ],
+    "https://sketchfab.com/oembed": [
+        "http://sketchfab.com/show/*",
+        "https://sketchfab.com/show/*"
+    ],
+    "https://api.meetup.com/oembed": [
+        "http://meetup.com/*",
+        "http://www.meetup.com/*",
+        "https://meetup.com/*",
+        "https://www.meetup.com/*",
+        "http://meetup.ps/*",
+        "http://www.meetup.ps/*",
+        "https://meetup.ps/*",
+        "https://www.meetup.ps/*"
+    ],
+    "https://roomshare.jp/oembed.{format}": [
+        "http://roomshare.jp/post/*",
+        "http://roomshare.jp/en/post/*",
+        "http://www.roomshare.jp/post/*",
+        "http://www.roomshare.jp/en/post/*",
+        "https://roomshare.jp/post/*",
+        "https://roomshare.jp/en/post/*",
+        "https://www.roomshare.jp/post/*",
+        "https://www.roomshare.jp/en/post/*"
+    ],
+    "http://crowdranking.com/api/oembed.{format}": [
+        "http://crowdranking.com/crowdrankings/*",
+        "https://crowdranking.com/crowdrankings/*",
+        "http://crowdranking.com/rankings/*",
+        "https://crowdranking.com/rankings/*",
+        "http://crowdranking.com/topics/*",
+        "https://crowdranking.com/topics/*",
+        "http://crowdranking.com/widgets/*",
+        "https://crowdranking.com/widgets/*",
+        "http://crowdranking.com/r/*",
+        "https://crowdranking.com/r/*"
+    ]
+}
