@@ -64,10 +64,6 @@ commonly used if the endpoint supports JSONP. Currently only `{format}` is used 
 And then there are patterns that reference match groups in the URL patterns, e.g. `{1}`
 for the first matched group, `{2}` for the second etc.
 
-If a pattern occures in the query string of URL it's value should be URL-encoded.
-
-**TODO:** Maybe it should be URL encoded in any case?
-
 ### Pattern Syntax
 
 There are several named patterns:
