@@ -3,7 +3,7 @@ oEmbed Endpoints
 
 This is a simple file based registry of know [oEmbed](http://oembed.com/) endpoints.
 If you know endpoints that aren't listed here please fork this project, add the endpoints
-and send me a pull request.
+to `endpoints.json` and send me a pull request.
 
 ### endpoints.json
 
@@ -88,8 +88,8 @@ You can define an optional part by enclosing it with square brackets `[...]`.
 
 If you wonder why I didn't just use regular expressions: It's because the regular expression
 syntax is different in every programming language. However, this pattern language should
-be easy to convert to regular expressions. See an example of how this can be done in
-`oembedregistry.js`.
+be easy to convert to regular expressions. In fact I do this for JavaScript compatible
+regular expressions. See `make.js`, `oembedregistry.js` and `endpoints-regexp.json`.
 
 Sources
 -------
