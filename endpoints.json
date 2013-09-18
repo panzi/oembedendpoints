@@ -111,7 +111,7 @@
 		"http://www.ifixit.com/*/*/*"
 	],
 	"http://api.smugmug.com/services/oembed/": [
-		"http[s]://www.smugmug.com/*"
+		"http[s]://[www.]smugmug.com/*/*"
 	],
 	"https://github.com/api/oembed": [
 		"http[s]://gist.github.com/*"
@@ -120,8 +120,8 @@
 		"http://animoto.com/play/*"
 	],
 	"http://www.rdio.com/api/oembed": [
-		"http://rdio.com/people/*/playlists/*",
-		"http://rdio.com/artist/*/album/*"
+		"http://[wwww.]rdio.com/people/*/playlists/*",
+		"http://[wwww.]rdio.com/artist/*/album/*"
 	],
 	"http://api.5min.com/oembed.{format}": [
 		"http://www.5min.com/video/*"
@@ -282,5 +282,14 @@
 		"http[s]://crowdranking.com/topics/*",
 		"http[s]://crowdranking.com/widgets/*",
 		"http[s]://crowdranking.com/r/*"
+	],
+	"http://openapi.etsy.com/svc/oembed/": [
+		"http[s]://[www.]etsy.com/listing/*"
+	],
+	"https://audioboo.fm/publishing/oembed.{format}": [
+		"http[s]://audioboo.fm/boos/*"
+	],
+	"http://demo.clikthrough.com/services/oembed/": [
+		"http[s]://demo.clikthrough.com/theater/video/*"
 	]
 }
