@@ -163,8 +163,10 @@
         "http://www.ifixit.com/*/*/*"
     ],
     "http://api.smugmug.com/services/oembed/": [
-        "http://www.smugmug.com/*",
-        "https://www.smugmug.com/*"
+        "http://smugmug.com/*/*",
+        "http://www.smugmug.com/*/*",
+        "https://smugmug.com/*/*",
+        "https://www.smugmug.com/*/*"
     ],
     "https://github.com/api/oembed": [
         "http://gist.github.com/*",
@@ -175,7 +177,9 @@
     ],
     "http://www.rdio.com/api/oembed": [
         "http://rdio.com/people/*/playlists/*",
-        "http://rdio.com/artist/*/album/*"
+        "http://wwww.rdio.com/people/*/playlists/*",
+        "http://rdio.com/artist/*/album/*",
+        "http://wwww.rdio.com/artist/*/album/*"
     ],
     "http://api.5min.com/oembed.{format}": [
         "http://www.5min.com/video/*"
@@ -422,5 +426,19 @@
         "https://crowdranking.com/widgets/*",
         "http://crowdranking.com/r/*",
         "https://crowdranking.com/r/*"
+    ],
+    "http://openapi.etsy.com/svc/oembed/": [
+        "http://etsy.com/listing/*",
+        "http://www.etsy.com/listing/*",
+        "https://etsy.com/listing/*",
+        "https://www.etsy.com/listing/*"
+    ],
+    "https://audioboo.fm/publishing/oembed.{format}": [
+        "http://audioboo.fm/boos/*",
+        "https://audioboo.fm/boos/*"
+    ],
+    "http://demo.clikthrough.com/services/oembed/": [
+        "http://demo.clikthrough.com/theater/video/*",
+        "https://demo.clikthrough.com/theater/video/*"
     ]
 }
