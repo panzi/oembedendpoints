@@ -77,7 +77,7 @@ There are several named patterns:
  * `{any}` is any non-zero length string
 
 The meaning of the `*` placeholder depends on where it occurs. In the protocol part
-of an URL it expands to `{protocol}`, in the hsotname part it expands to `{domain}`
+of an URL it expands to `{protocol}`, in the hostname part it expands to `{domain}`
 in the rest it expands to `{path-component}` unless if it is at the very end. Then
 it expands to `{any}`.
 
@@ -94,7 +94,8 @@ regular expressions. See `make.js`, `oembedregistry.js` and `endpoints-regexp.js
 Sources
 -------
 
-Sources used to compile this list where amongst others (I'm still working through this sources):
+Sources used to compile this list where amongst others (I'm still working through these
+sources):
 
  * [oohEmbed](http://oohembed.com): [endpoints.json](https://code.google.com/p/oohembed/source/browse/app/provider/endpoints.json)
  * [embedr](https://github.com/agoragames/oembedr): [providers.rb](https://github.com/agoragames/oembedr/blob/master/lib/oembedr/providers.rb)
