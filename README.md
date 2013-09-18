@@ -101,7 +101,7 @@ sources):
  * [embedr](https://github.com/agoragames/oembedr): [providers.rb](https://github.com/agoragames/oembedr/blob/master/lib/oembedr/providers.rb)
  * [iframely](https://github.com/itteco/iframely): [providers.json](https://github.com/itteco/iframely/blob/master/providers.json)
  * [Foswiki OEmbed Extension](http://foswiki.org/Extensions/OEmbedPlugin): `lib/Foswiki/Plugins/OembedPlugin/Config.spec`
- * [CKEditor-oEmbed-Plugin](https://github.com/w8tcha/CKEditor-oEmbed-Plugin): [jquery.oembed.js](https://github.com/w8tcha/CKEditor-oEmbed-Plugin/blob/master/oembed/libs/jquery.oembed.js)
+ * [CKEditor-oEmbed-Plugin](https://github.com/w8tcha/CKEditor-oEmbed-Plugin): [jquery.oembed.js](https://github.com/w8tcha/CKEditor-oEmbed-Plugin/blob/master/oembed/libs/jquery.oembed.js) and starfishmod's [fork thereof](https://github.com/starfishmod/jquery-oembed-all/blob/master/jquery.oembed.js)
  * [embed.ly](http://embed.ly): [services](http://api.embed.ly/1/services)
 
 License
