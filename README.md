@@ -103,6 +103,7 @@ sources):
  * [Foswiki OEmbed Extension](http://foswiki.org/Extensions/OEmbedPlugin): `lib/Foswiki/Plugins/OembedPlugin/Config.spec`
  * [CKEditor-oEmbed-Plugin](https://github.com/w8tcha/CKEditor-oEmbed-Plugin): [jquery.oembed.js](https://github.com/w8tcha/CKEditor-oEmbed-Plugin/blob/master/oembed/libs/jquery.oembed.js) and starfishmod's [fork thereof](https://github.com/starfishmod/jquery-oembed-all/blob/master/jquery.oembed.js)
  * [embed.ly](http://embed.ly): [services](http://api.embed.ly/1/services)
+ * [oEmbed.ly](http://oEmbed.ly): [providers](https://github.com/oembedly/oembedly/tree/gh-pages/providers)
 
 License
 -------
