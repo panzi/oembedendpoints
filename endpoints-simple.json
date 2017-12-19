@@ -9,7 +9,7 @@
         "http://photos.app.net/*/*",
         "https://photos.app.net/*/*"
     ],
-    "http://www.youtube.com/oembed": [
+    "https://www.youtube.com/oembed": [
         "http://youtube.com/watch*",
         "http://*.youtube.com/watch*",
         "https://youtube.com/watch*",
@@ -43,13 +43,19 @@
         "https://youtube.com/playlist*",
         "https://*.youtube.com/playlist*"
     ],
-    "http://backend.deviantart.com/oembed": [
+    "https://backend.deviantart.com/oembed": [
         "http://deviantart.com/art/*",
         "http://*.deviantart.com/art/*",
+        "https://deviantart.com/art/*",
+        "https://*.deviantart.com/art/*",
         "http://fav.me/*",
+        "https://fav.me/*",
         "http://sta.sh/*",
+        "https://sta.sh/*",
         "http://deviantart.com/*#/d*",
-        "http://*.deviantart.com/*#/d*"
+        "http://*.deviantart.com/*#/d*",
+        "https://deviantart.com/*#/d*",
+        "https://*.deviantart.com/*#/d*"
     ],
     "http://blip.tv/oembed/": [
         "http://*.blip.tv/*"
@@ -57,7 +63,7 @@
     "http://www.dailymotion.com/api/oembed/": [
         "http://*.dailymotion.com/*"
     ],
-    "http://www.flickr.com/services/oembed/": [
+    "https://www.flickr.com/services/oembed/": [
         "http://*.flickr.com/photos/*",
         "http://flic.kr.com/*"
     ],

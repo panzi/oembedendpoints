@@ -6,7 +6,7 @@
 		"http[s]://alpha.app.net/*/post/*",
 		"http[s]://photos.app.net/*/*"
 	],
-	"http://www.youtube.com/oembed": [
+	"https://www.youtube.com/oembed": [
 		"http[s]://[*.]youtube.com/watch*",
 		"http[s]://[*.]youtube.com/v/*",
 		"http[s]://youtu.be/*",
@@ -17,11 +17,11 @@
 		"http[s]://[*.]youtube.com/view_play_list*",
 		"http[s]://[*.]youtube.com/playlist*"
 	],
-	"http://backend.deviantart.com/oembed": [
-		"http://[*.]deviantart.com/art/*",
-		"http://fav.me/*",
-		"http://sta.sh/*",
-		"http://[*.]deviantart.com/*#/d*"
+	"https://backend.deviantart.com/oembed": [
+		"http[s]://[*.]deviantart.com/art/*",
+		"http[s]://fav.me/*",
+		"http[s]://sta.sh/*",
+		"http[s]://[*.]deviantart.com/*#/d*"
 	],
 	"http://blip.tv/oembed/": [
 		"http://*.blip.tv/*"
@@ -29,7 +29,7 @@
 	"http://www.dailymotion.com/api/oembed/": [
 		"http://*.dailymotion.com/*"
 	],
-	"http://www.flickr.com/services/oembed/": [
+	"https://www.flickr.com/services/oembed/": [
 		"http://*.flickr.com/photos/*",
 		"http://flic.kr.com/*"
 	],
